@@ -1,0 +1,20 @@
+{
+  "name": "swift-json-gen",
+  "version": "1.2.0",
+  "description": "Generate Swift Json encoders and decoders based on Swift structs.",
+  "main": "lib/JsonGen",
+  "bin": {
+    "swift-json-gen": "./bin/swift-json-gen"
+  },
+  "repository": "tomlokhorst/swift-json-gen",
+  "homepage": "https://github.com/tomlokhorst/swift-json-gen",
+  "author": "Tom Lokhorst",
+  "license": "MIT",
+  "dependencies":
+  {
+    "yargs": "~4.2",
+    "mkdirp": "~0.5",
+    "tmp": "~0.0.28",
+    "bluebird": "~3.5.0"
+  }
+}
